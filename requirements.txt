@@ -114,7 +114,7 @@ soupsieve==1.8
 spidev==3.4
 SQLAlchemy==1.3.19
 sqlparse==0.3.1
-ssh-import-id<=5.7
+ssh-import-id<5.7
 thonny==3.2.6
 tornado==5.1.1
 touchphat==0.0.1

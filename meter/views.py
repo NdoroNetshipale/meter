@@ -12,7 +12,7 @@ def button(request):
 def output(request):
 
 
-    sdm630 = minimalmodbus.Instrument('/dev/ttyUSB0', 1)
+    sdm630 = minimalmodbus.Instrument('/dev/ttyUSB1', 1)
     sdm630.serial.baudrate = 9600
     sdm630.serial.bytesize = 8
     sdm630.serial.parity = minimalmodbus.serial.PARITY_NONE

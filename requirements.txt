@@ -1,3 +1,4 @@
 Django==3.1.1
 minimalmodbus==1.0.2
 whitenoise
+gunicorn
